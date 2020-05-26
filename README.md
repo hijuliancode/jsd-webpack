@@ -24,3 +24,6 @@ Webpack no soporta IE8 o navegadores anteriores (puede añadirse soporte por med
 
 Instalar Babel:
 > ```npm install --save-dev @babel/cli @babel/core @babel/preset-env @babel/register babel-loader```
+
+Instalar Loader para css:
+> ```npm install --save-dev style-loader css-loader```
