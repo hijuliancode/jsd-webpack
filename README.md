@@ -30,3 +30,6 @@ Instalar Loader para css:
 
 Instalar Loader para sass:
 > ```npm install --save-dev style-loader css-loader sass-loader node-sass```
+
+Instalar Webpack dev server:
+> ```npm install --save-dev webpack-dev-server```

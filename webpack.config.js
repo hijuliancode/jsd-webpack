@@ -1,4 +1,5 @@
 const path = require('path')
+const { join } = require('path')
 
 module.exports = {
   entry: {
@@ -8,6 +9,11 @@ module.exports = {
   output: {
     filename: '[name].bundle.js',
     path: path.join(__dirname, '/dist')
+  },
+  devServer: {
+    contentBase: path.join(__dirname, 'dist'),
+    compress: true,
+    port: 9000
   },
   module: {
     rules: [
