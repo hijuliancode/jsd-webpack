@@ -1,4 +1,4 @@
-console.log('index.js');
+console.log('nosotros.js');
 
 import '../css/style.scss'
 
