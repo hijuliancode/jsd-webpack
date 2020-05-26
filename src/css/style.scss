@@ -1,9 +1,24 @@
-$primary: brown;
+$primary: cornflowerblue;
 $secondary: white;
 
 html {
+  font-family: sans-serif;
   body {
+    font-weight: 300;
+  }
+}
+
+#clientes {
+  padding: 0;
+  li {
+    padding: 1em;
+    font-size: 1.4rem;
     background-color: $primary;
     color: $secondary;
+
+    &:nth-child(2n+1) {
+      color: $primary;
+      background-color: $secondary;
+    }
   }
 }

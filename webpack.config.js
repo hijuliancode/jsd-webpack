@@ -1,10 +1,9 @@
 const path = require('path')
-const { join } = require('path')
+const HtmlWebpackPlugin = require('html-webpack-plugin')
 
 module.exports = {
   entry: {
-    index: './src/js/index.js',
-    nosotros: './src/js/nosotros.js'
+    index: './src/js/index.js'
   },
   output: {
     filename: '[name].bundle.js',
@@ -51,5 +50,17 @@ module.exports = {
         }
       }
     }
-  }
+  },
+  plugins: [
+    new HtmlWebpackPlugin({
+      filename: 'index.html',
+      template: 'src/index.html',
+      title: 'Lista de clientes'
+    }),
+    new HtmlWebpackPlugin({
+      filename: 'nosotros.html',
+      template: 'src/nosotros.html',
+      title: 'Nosotros'
+    })
+  ]
 }

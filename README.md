@@ -33,3 +33,6 @@ Instalar Loader para sass:
 
 Instalar Webpack dev server:
 > ```npm install --save-dev webpack-dev-server```
+
+Webpack para crear los HTML
+> ```npm install --save-dev html-webpack-plugin```

@@ -1,16 +1,13 @@
 console.log('index.js');
-
 import '../css/style.scss'
 
-class Cliente {
-  constructor(nombre) {
-    this.nombre = nombre
-  }
-  mostrarNombre() {
-    return `Nombre cliente: ${this.nombre}`
-  }
-}
+const clientes = ['Cliente 1', 'Cliente 2', 'Cliente 3', 'Cliente 4']
 
-const julian = new Cliente('Julian')
+let html = '<ul>'
 
-console.log(julian.mostrarNombre())
+clientes.forEach(cliente => {
+  html += `<li>${cliente}</li>`
+})
+html += '</ul>'
+
+document.querySelector('#clientes').innerHTML = html
