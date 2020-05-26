@@ -1,3 +1,12 @@
-const carrito = ['Producto 1', 'Producto 2', 'Producto 3']
+class Cliente {
+  constructor(nombre) {
+    this.nombre = nombre
+  }
+  mostrarNombre() {
+    return `Nombre cliente: ${this.nombre}`
+  }
+}
 
-console.log(carrito);
+const julian = new Cliente('Julian')
+
+console.log(julian.mostrarNombre())

@@ -21,3 +21,6 @@ Los loaders nos permiten usar distintos tipos de módulos y otros formatos. Pero
 
 Para trabajar con Webpack necesitamos tener instalado NodeJS y NPM.
 Webpack no soporta IE8 o navegadores anteriores (puede añadirse soporte por medio de un polyfill).
+
+Instalar Babel:
+> ```npm install --save-dev @babel/cli @babel/core @babel/preset-env @babel/register babel-loader```

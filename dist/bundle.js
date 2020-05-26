@@ -93,7 +93,7 @@
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-eval("const carrito = ['Producto 1', 'Producto 2', 'Producto 3']\n\nconsole.log(carrito);\n\n\n//# sourceURL=webpack:///./src/index.js?");
+eval("function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError(\"Cannot call a class as a function\"); } }\n\nfunction _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if (\"value\" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }\n\nfunction _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }\n\nvar Cliente = /*#__PURE__*/function () {\n  function Cliente(nombre) {\n    _classCallCheck(this, Cliente);\n\n    this.nombre = nombre;\n  }\n\n  _createClass(Cliente, [{\n    key: \"mostrarNombre\",\n    value: function mostrarNombre() {\n      return \"Nombre cliente: \".concat(this.nombre);\n    }\n  }]);\n\n  return Cliente;\n}();\n\nvar julian = new Cliente('Julian');\nconsole.log(julian.mostrarNombre());\n\n//# sourceURL=webpack:///./src/index.js?");
 
 /***/ }),
 
