@@ -27,3 +27,6 @@ Instalar Babel:
 
 Instalar Loader para css:
 > ```npm install --save-dev style-loader css-loader```
+
+Instalar Loader para sass:
+> ```npm install --save-dev style-loader css-loader sass-loader node-sass```

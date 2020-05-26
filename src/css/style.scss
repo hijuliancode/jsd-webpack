@@ -1,0 +1,9 @@
+$primary: brown;
+$secondary: white;
+
+html {
+  body {
+    background-color: $primary;
+    color: $secondary;
+  }
+}
